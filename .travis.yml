@@ -5,4 +5,4 @@ services:
 before_install:
   - docker build -t simone/frontend -f Dockerfile.dev .
 script:
-  - docker run -e CI=true simone/frontend npm run test
+  - docker run simone/frontend npm run test -- --coverage
