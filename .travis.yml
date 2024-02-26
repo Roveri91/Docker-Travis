@@ -13,7 +13,6 @@ deploy:
   app: "frontend"
   env: "Frontend-env"
   bucket_name: "elasticbeanstalk-ap-southeast-2-905417997869"
-  bucket
   bucket_path: "frontend"
   on:
     branch: master
